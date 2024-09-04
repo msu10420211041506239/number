@@ -1,0 +1,17 @@
+#oo{
+    position: relative;
+    left: 120px;
+} 
+p{
+    width: 1200px;
+}
+ #fo{
+    position: relative;
+    top: 30px;
+    right: 40px;
+    bottom: 300px;
+    
+} 
+li{
+    display: grid;
+}

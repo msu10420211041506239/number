@@ -1,0 +1,36 @@
+input{
+    margin-left: 100px;
+    display: grid;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+ #kl{
+    color: white;
+    background-color: #605DAC;
+    position: relative;
+    top: 180px;
+    left: 600px;
+    width: 70px;
+    height: 25px;
+} 
+label{
+    position: relative;
+    left: 580px;
+}
+#lo{
+    position: relative;
+    top: 150px;
+
+}
+#kj{
+    position: relative;
+    top: 90px;
+}
+#jk{
+    position: relative;
+top: 150px;
+}
+#kl{
+    cursor: pointer;
+}

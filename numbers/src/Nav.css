@@ -1,0 +1,46 @@
+ul{
+  display: flex;
+  position: relative;
+  top: 20px;
+
+}
+#ab,#cd,#ef,#gh{
+  position: relative;
+  left: 700px;
+}
+#cd{
+left: 800px;
+}
+#ef{
+left: 900px;
+}
+#gh{
+left: 1000px;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#law{
+  background-color: #dad4d4;
+  color: black;
+  height: 60px;
+}
+svg{
+  position: relative;
+  bottom: 15px;
+  left: 40px;
+  cursor: pointer;
+}
+.list{
+  display: grid;
+  padding-top: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  position: relative;
+  right: 35px;
+}
+.list>li:hover{
+  color: red;
+}

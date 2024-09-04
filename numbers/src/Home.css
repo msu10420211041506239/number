@@ -1,0 +1,48 @@
+#blow{
+margin-right: 30px;
+padding: 20px;
+position: relative;
+left: 100px;
+}
+#li{
+    position: relative;
+    bottom: 110px;
+    left: 80px;
+}
+#mu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#add{
+    position: relative;
+    top: 80px;
+    width: 80px;
+    height: 30px;
+    background-color: #605DAC;
+    color: white;
+}
+#move{
+    animation: moveRight 6s linear infinite;
+    position: absolute;
+    top: 0;
+    left: -150px; 
+    width: 150px; 
+    height: 80px;
+}
+@keyframes moveRight {
+    0% {
+        left: -150px; 
+    }
+    100% {
+        left: 100%; 
+    }
+}
+#ku{
+    color: blue;
+position: relative;
+bottom: 920px;
+        animation: moveRight 5.5s linear infinite;
+    position: absolute;
+    top: 0;
+    left: -150px;       
+}

@@ -1,0 +1,25 @@
+#pl,#ji,#mb,#ls{
+    position: relative;
+    top: 100px;
+    left: 570px;
+    bottom: 30px;
+    display: grid;
+}
+#lof{
+position: relative;
+top: 100px;
+left: 520px;
+color: red;
+}
+h1{
+    position: relative;
+    /* margin: auto; */
+left: 570px;
+}
+span{
+    color: blue;
+}
+#ly{
+    position: relative;
+    left: 570px;
+}
